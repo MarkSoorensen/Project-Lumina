@@ -1,5 +1,6 @@
 # References
 
 - Volkswagen Current Flow Diagrams
-- OEM Parts Catalogue
+- Volkswagen Workshop Manual
+- ETKA
 - VWIDTalk

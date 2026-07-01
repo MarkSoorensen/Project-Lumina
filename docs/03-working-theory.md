@@ -1,3 +1,5 @@
 # Working Theory
 
-Current engineering theories awaiting verification.
+- SIG may be PWM.
+- Light Fibre modules likely contain internal drivers.
+- BCM coding may be required.

@@ -1,3 +1,3 @@
 # Installation
 
-Installation guide will be published after validation.
+Draft. To be completed after validation.
