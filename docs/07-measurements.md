@@ -1,4 +1,4 @@
 # Measurements
 
-| Date | Component | Result |
-|------|-----------|--------|
+| Date | Test | Result |
+|------|------|--------|

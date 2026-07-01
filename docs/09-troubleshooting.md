@@ -1,3 +1,3 @@
 # Troubleshooting
 
-Known issue: DRL errors when illuminated emblem is disconnected on factory-equipped vehicles.
+Known DRL errors when OEM illuminated emblem is disconnected.
