@@ -1,5 +1,5 @@
-# Changelog
+# References
 
-## v0.2.0
-- Expanded documentation
-- Added engineering structure
+- Volkswagen Current Flow Diagrams
+- VWIDTalk discussions
+- OEM parts catalogues
