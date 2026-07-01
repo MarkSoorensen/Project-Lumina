@@ -1,15 +1,10 @@
-# Roadmap
+# TODO
 
-## Completed
-- [x] Identify MX16
-- [x] Identify T14j
-- [x] Identify OEM harnesses
-- [x] Analyse Current Flow Diagrams
-
-## Next
-- [ ] Measure T14j
-- [ ] Measure L362
-- [ ] Verify BCM coding
-- [ ] Build prototype harness
-- [ ] Validate OEM retrofit
-- [ ] Publish v1.0 guide
+- [ ] Measure T14j pins
+- [ ] Measure L362 voltages
+- [ ] Verify KL58 source
+- [ ] Compare OEM harnesses
+- [ ] Investigate J519 coding
+- [ ] Prototype adapter harness
+- [ ] Validate installation
+- [ ] Update documentation
