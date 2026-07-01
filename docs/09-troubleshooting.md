@@ -1,5 +1,3 @@
 # Troubleshooting
 
-- Verify ground
-- Verify switched voltage
-- Scan for DTCs
+Known issue: DRL errors when illuminated emblem is disconnected on factory-equipped vehicles.

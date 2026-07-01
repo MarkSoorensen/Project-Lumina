@@ -1,3 +1,5 @@
 # Working Theory
 
-Current theory: the illuminated emblem receives a dedicated switched output from J519.
+- SIG may be PWM.
+- Logo likely only requires KL58 + Ground.
+- Harness differences under investigation.

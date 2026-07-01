@@ -1,7 +1,5 @@
 # References
 
-- Volkswagen Workshop Manual
-- ETKA
-- 7Zap
-- VWIDTalk
-- Reddit
+- Volkswagen Current Flow Diagrams
+- VWIDTalk discussions
+- OEM parts catalogues

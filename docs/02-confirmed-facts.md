@@ -1,5 +1,7 @@
 # Confirmed Facts
 
-- J519 exists and controls exterior lighting.
-- Light Fibre components L362/L363 are documented.
-- VW documentation references a badge with lighting.
+- MX16 Pin1 = GND
+- MX16 Pin2 = KL58
+- L362 uses 4-pin connector
+- Shared ground 456/457
+- T14j is vehicle-to-bumper transition connector
