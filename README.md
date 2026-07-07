@@ -1,110 +1,90 @@
-🌟 Project Lumina
+# 🌟 Project Lumina
 
-OEM+ Illuminated VW Logo Retrofit for Volkswagen ID.7
+> **OEM+ Illuminated VW Logo Retrofit for Volkswagen ID.7**
 
-<p align="center">
+![Status](https://img.shields.io/badge/Status-In%20Development-orange)
+![Platform](https://img.shields.io/badge/Platform-VW%20ID.7-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Coding](https://img.shields.io/badge/Coding-Not%20Required-success)
 
-</p>
-📸 Project Preview
+------------------------------------------------------------------------
 
-(Her kommer et stort billede af bilen med oplyste logoer)
+## 🚗 About
 
-💡 About
+Project Lumina is an open-source retrofit project focused on creating an
+**OEM-inspired illuminated Volkswagen logo** for the Volkswagen ID.7.
 
-Project Lumina is an open-source retrofit project focused on creating a clean, OEM-inspired illuminated Volkswagen logo installation for the Volkswagen ID.7.
+The project is designed around four core principles:
 
-The primary goal is to achieve a factory-like result while keeping the installation completely reversible and avoiding modifications to the vehicle's original wiring.
+-   🔌 Plug & Play installation
+-   🔄 Fully reversible
+-   🚫 No factory wiring modifications
+-   💻 No coding required
 
-✨ Features
-🔌 Plug & Play adapter harness
-🚫 No factory wiring modifications
-💻 No coding required
-💡 OEM fade-in / fade-out behaviour
-🔒 Dedicated fused power supply
-📦 Waterproof controller enclosure
-🔄 Fully reversible installation
-📖 Complete documentation
-📷 Step-by-step installation guide
-🎯 Design Philosophy
+Instead of modifying the Body Control Module (J519), the factory front
+LED light bar is used **only as a trigger signal**. A dedicated **HW-517
+MOSFET controller** switches a separate fused 12V supply to the
+illuminated logo.
 
-Instead of modifying the Body Control Module (J519), Project Lumina uses the factory front LED light bar only as a trigger signal.
+------------------------------------------------------------------------
 
-The illuminated logo receives its own fused 12V power through an independent MOSFET controller.
+## ✨ Features
 
-This ensures:
+-   OEM adapter harness
+-   HW-517 MOSFET controller
+-   Dedicated fused power supply
+-   Waterproof electronics enclosure
+-   OEM-style fade in / fade out
+-   Easy to remove
+-   Community driven
 
-No additional load on factory lighting outputs
-Factory fade animation
-Easy troubleshooting
-Safe installation
-🛠 Hardware
-Component	Status
-OEM VW Adapter Harness	✅
-HW-517 MOSFET Controller	✅
-Waterproof Enclosure	✅
-Inline Fuse	✅
-Front Logo	🟡 Testing
-Rear Logo	🟡 Development
-📖 Documentation
-Guide	Status
-Front Installation	🚧
-Rear Installation	🚧
-Wiring	🚧
-Hardware	🚧
-Troubleshooting	🚧
-FAQ	🚧
-📷 Gallery
+------------------------------------------------------------------------
 
-(Billeder kommer her)
+## 📊 Project Status
 
-🔌 Wiring
+  Component            Status
+  -------------------- ----------------
+  Wiring research      ✅ Complete
+  Adapter harness      ✅ Complete
+  HW-517 trigger       ✅ Tested
+  Front installation   🟡 In Progress
+  Rear installation    🟡 Planned
+  Documentation        🟡 In Progress
 
-(Diagrammer kommer her)
+------------------------------------------------------------------------
 
-📊 Development Progress
-███████████████████░░░░ 80%
+## 🛠 Hardware
 
-Current milestone:
+-   VW Adapter Harness (14A 971 014)
+-   HW-517 MOSFET Trigger Module
+-   Waterproof enclosure
+-   Inline fuse
+-   Tesa fabric tape
+-   Illuminated VW Logo
 
-✅ Adapter Harness
+------------------------------------------------------------------------
 
-✅ PWM Trigger
+## 📂 Repository
 
-✅ HW-517
+``` text
+docs/
+hardware/
+diagrams/
+images/
+README.md
+```
 
-✅ Wiring
+------------------------------------------------------------------------
 
-🟡 Front Installation
+## ⚠ Disclaimer
 
-⬜ Rear Installation
-
-🚀 Roadmap
- Factory wiring analysis
- Adapter harness
- PWM trigger testing
- HW-517 controller
- Front logo installation
- Rear logo installation
- Complete documentation
- Release v1.0
-📦 Repository Structure
-Project-Lumina
-│
-├── docs
-├── hardware
-├── diagrams
-├── images
-└── README.md
-🤝 Contributing
-
-Pull requests, improvements and additional testing are always welcome.
-
-⚠ Disclaimer
-
-This project is an independent community project and is not affiliated with Volkswagen AG.
+This project is an independent community project and is **not affiliated
+with Volkswagen AG**.
 
 All modifications are performed at your own risk.
 
-⭐ Support the project
+------------------------------------------------------------------------
+
+## ⭐ Support
 
 If this project helped you, please consider giving it a ⭐ on GitHub.
