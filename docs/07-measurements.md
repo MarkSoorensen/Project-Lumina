@@ -1,4 +1,0 @@
-# Measurements
-
-| Date | Test | Result |
-|---|---|---|
