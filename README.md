@@ -191,8 +191,6 @@ Project-Lumina
 │   ├── Installation.md
 │   ├── Mechanical-Notes.md
 │   └── Troubleshooting.md
-│
-└── images
 ```
 
 ---
