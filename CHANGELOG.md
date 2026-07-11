@@ -1,4 +1,1 @@
-# Changelog
-
-## v0.1
-- Initial repository structure
+v1.0.0 Initial
