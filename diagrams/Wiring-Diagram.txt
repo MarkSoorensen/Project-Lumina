@@ -6,6 +6,6 @@ HW-517
  ^   |
  |   +------> Emblem +
  |
-PWM Trigger
+PWM Trigger ----- Pin 4 (PWM) + Pin 1 (Ground)
 
 Ground -----------------> Emblem -
