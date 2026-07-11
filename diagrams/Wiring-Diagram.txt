@@ -1,0 +1,11 @@
+Battery (+12V)
+   |
+ 1A Fuse
+   |
+HW-517
+ ^   |
+ |   +------> Emblem +
+ |
+PWM Trigger
+
+Ground -----------------> Emblem -
