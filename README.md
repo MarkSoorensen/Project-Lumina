@@ -2,7 +2,7 @@
 
 > **OEM Illuminated Volkswagen Emblem – Electrical Integration Guide for the Volkswagen ID.7**
 
-![Status](https://img.shields.io/badge/Status-Active-success)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Vehicle](https://img.shields.io/badge/Vehicle-VW%20ID.7-blue)
 ![Platform](https://img.shields.io/badge/Platform-MEB-informational)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -20,6 +20,8 @@ During development it became clear that the illuminated emblem used for testing 
 Because of this, the focus of this repository has changed.
 
 Instead of documenting the mechanical retrofit, this repository documents the **electrical solution**, allowing others to understand how the OEM emblem can be powered correctly while using the factory light bar as the trigger source.
+
+Testing confirmed that the OEM illuminated emblem contains its own integrated fade controller. No external PWM generator or ESP32 is required to achieve the original Volkswagen fade-in and fade-out effect.
 
 ---
 
@@ -47,6 +49,7 @@ Instead of documenting the mechanical retrofit, this repository documents the **
 | HW-517 tested | ✅ |
 | Dedicated 12V supply | ✅ |
 | Bench testing completed | ✅ |
+| Vehicle installation verified | ✅ |
 | OEM connector documented | ✅ |
 | Mechanical retrofit | ⚠ Not plug-and-play |
 
@@ -101,6 +104,8 @@ Instead, it is only used as a PWM trigger.
 The emblem receives its power directly from a dedicated fused 12V supply through a HW-517 MOSFET relay.
 
 This ensures that the factory light bar is never loaded by the additional current required by the illuminated emblem.
+
+Testing confirmed that the emblem performs its own OEM fade-in and fade-out sequence when power is applied and removed. The HW-517 only switches the power supply and does not generate the fade effect.
 
 ---
 
