@@ -18,6 +18,11 @@
 - Factory rear light bar can be used as trigger source.
 - Rear illuminated light bar verified and documented.
 
+### Rear Illuminated Light Bar
+- Verified plug-and-play installation.
+- Requires replacement of the complete rear illuminated light bar assembly.
+- No coding required.
+
 ### Notes
 - Mechanical installation may vary depending on vehicle configuration.
 - Project focuses on the electrical retrofit and documentation.
