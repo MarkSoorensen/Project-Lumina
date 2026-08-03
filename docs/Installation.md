@@ -7,3 +7,9 @@
 5. Connect fused 12V.
 6. Connect ground.
 7. Test before final assembly.
+
+After installation verify:
+
+- Emblem fades in with the vehicle light bar.
+- Emblem remains steadily illuminated.
+- Emblem fades out when the lights are switched off.
