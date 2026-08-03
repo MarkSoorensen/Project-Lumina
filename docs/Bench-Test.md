@@ -1,3 +1,13 @@
 # Bench Test
 
-Bench test at 13.5V. The emblem is rated at 12W. Both 2-pin connectors must be connected at the same time or the emblem will not illuminate correctly.
+Bench testing was performed using a regulated 13–14V power supply.
+
+Results:
+
+- Both 2-pin connectors must be connected.
+- The emblem powers up correctly.
+- Integrated OEM fade-in confirmed.
+- Stable illumination confirmed.
+- Integrated OEM fade-out confirmed when power is removed.
+- Measured power approximately 12W.
+- No external PWM controller required.
