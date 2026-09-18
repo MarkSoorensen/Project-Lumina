@@ -1,11 +1,34 @@
-Battery (+12V)
-   |
- 1A Fuse
-   |
-HW-517
- ^   |
- |   +------> Emblem +
- |
-PWM Trigger ----- Pin 4 (PWM) + Pin 1 (Ground)
+VEHICLE 12V SYSTEM
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+          +12V INPUT               GROUND INPUT
+              │                         │
+              ▼                         ▼
+                    ┌─────────────┐
+                    │   HW-517    │
+                    │             │
+ PWM SIGNAL ───────►│ Pin 4 (PWM) │
+ from LED strip     │             │
+ cable 14A 971 014  │ Pin 1 (GND) │◄──── Ground
+                    │             │
+                    │   OUTPUT    │
+                    └──────┬──────┘
+                           │
+                    ┌──────┴──────┐
+                    │             │
+                  +12V          GROUND
+                    │             │
+                    ▼             ▼
+                 ┌──────────────────┐
+                 │    VW EMBLEM     │
+                 │                  │
+                 │   +12V    GND    │
+                 └──────────────────┘
 
-Ground -----------------> Emblem -
+
+EXISTING FRONT LED STRIP CABLE
+PART NUMBER: 14A 971 014
+
+             Pin 4 ────────────────► HW-517 Pin 4 (PWM)
+             Pin 1 ────────────────► HW-517 Pin 1 (GND)
