@@ -112,21 +112,31 @@ Testing confirmed that the emblem performs its own OEM fade-in and fade-out sequ
 # Wiring Concept
 
 ```text
-                  Factory LED Light Bar
-                          │
-                          │ PWM Signal
-                          ▼
+                  Vehicle 12V System
+                    │          │
+                  +12V       Ground
+                    │          │
+                    ▼          ▼
                 +-------------------+
                 |     HW-517        |
                 |  PWM MOSFET Relay |
                 +-------------------+
-                          │
-                          │
-                          ▼
-               Dedicated 12V Supply
-                   (1A Inline Fuse)
-                          │
-                          ▼
+                         ▲
+                         │ PWM Signal
+                         │
+                 Front LED Strip
+                 Cable 14A 971 014
+                   Pin 4 = PWM
+                   Pin 1 = Ground
+                         │
+                         │
+                         ▼
+                +-------------------+
+                |   HW-517 OUTPUT   |
+                |    12V + Ground   |
+                +-------------------+
+                         │
+                         ▼
               OEM Illuminated Emblem
 ```
 
